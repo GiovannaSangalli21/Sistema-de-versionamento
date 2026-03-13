@@ -1,4 +1,5 @@
 Resolução de atividades
+## tecnologias usadas: flowgorithm, git git hup
 
 ## Exercicio 1
 
