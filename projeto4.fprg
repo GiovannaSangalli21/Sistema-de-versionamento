@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="projeto4"/>
+        <attribute name="authors" value="1DEVSESI46A"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-13 02:26:28 "/>
+        <attribute name="created" value="MURFVlNFU0k0NkE7RUNGUDUwN0QxMzE5NjAwOzIwMjYtMDMtMTM7IjAyOjIxOjMxICI7Mjc5OA=="/>
+        <attribute name="edited" value="MURFVlNFU0k0NkE7RUNGUDUwN0QxMzE5NjAwOzIwMjYtMDMtMTM7IjAyOjI2OjI4ICI7MTsyOTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <output expression="&quot;digite um numero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero &gt;= 0">
+                <then>
+                    <output expression="&quot;numero positivo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;numero negativo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

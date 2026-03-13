@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="projeto 5"/>
+        <attribute name="authors" value="1DEVSESI46A"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-13 02:33:26 "/>
+        <attribute name="created" value="MURFVlNFU0k0NkE7RUNGUDUwN0QxMzE5NjAwOzIwMjYtMDMtMTM7IjAyOjI2OjQxICI7MjgwNA=="/>
+        <attribute name="edited" value="MURFVlNFU0k0NkE7RUNGUDUwN0QxMzE5NjAwOzIwMjYtMDMtMTM7IjAyOjMzOjI2ICI7MTsyOTEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1" type="Integer" array="False" size=""/>
+            <input variable="nota1"/>
+            <declare name="nota2" type="Integer" array="False" size=""/>
+            <input variable="nota2"/>
+            <declare name="m&#233;dia" type="Integer" array="False" size=""/>
+            <assign variable="m&#233;dia" expression="nota1 + nota2"/>
+            <output expression="m&#233;dia" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

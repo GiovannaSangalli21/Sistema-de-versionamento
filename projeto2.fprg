@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="projeto2"/>
+        <attribute name="authors" value="1DEVSESI46A"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-13 02:10:18 "/>
+        <attribute name="created" value="MURFVlNFU0k0NkE7RUNGUDUwN0QxMzE5NjAwOzIwMjYtMDMtMTM7IjAxOjIxOjE5ICI7MjgwMw=="/>
+        <attribute name="edited" value="MURFVlNFU0k0NkE7RUNGUDUwN0QxMzE5NjAwOzIwMjYtMDMtMTM7IjAyOjEwOjE4ICI7MjsyOTEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;digite o numero&quot;" newline="True"/>
+            <declare name="numero1" type="Integer" array="False" size=""/>
+            <input variable="numero1"/>
+            <output expression="&quot;digite outro numero&quot;" newline="True"/>
+            <declare name="numero2" type="Integer" array="False" size=""/>
+            <input variable="numero2"/>
+            <declare name="soma" type="Integer" array="False" size=""/>
+            <assign variable="soma" expression="numero1 + numero2"/>
+            <output expression="soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

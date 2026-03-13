@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Projeto1"/>
+        <attribute name="authors" value="1DEVSESI46A"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-13 01:29:26 "/>
+        <attribute name="created" value="MURFVlNFU0k0NkE7RUNGUDUwN0QxMzE5NjAwOzIwMjYtMDMtMTM7IjAxOjIxOjE2ICI7MjgwMA=="/>
+        <attribute name="edited" value="MURFVlNFU0k0NkE7RUNGUDUwN0QxMzE5NjAwOzIwMjYtMDMtMTM7IjAxOjI5OjI2ICI7MTsyOTE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;por favor digite seu nome&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;ola, &quot;&amp; nome &amp; &quot;!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
